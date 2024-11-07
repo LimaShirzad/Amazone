@@ -1,0 +1,744 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+button
+{
+    cursor: pointer;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background: rgb(201, 196, 196);
+}
+/* start of header design */
+header
+{
+    display: flex;
+    background:black;
+     color: white;
+     height: 70px;
+     align-items: center;
+     justify-content: space-evenly;
+  
+    
+}
+header .img img
+{
+   width: 160px;
+   padding:12px;
+   margin-top: 25px;
+   height: 47px;
+   
+}
+header h4
+{
+    color: grey;
+    margin: 30px;
+}
+header h4 span
+{
+  color: white;
+}
+.input-box
+{
+    
+ display: flex;
+
+align-items: center;
+
+}
+.input-box .btn
+{
+   
+    position: relative;
+ 
+}
+.input-box .btn i
+{
+    position: absolute;
+    font-size: 20px;
+    background: transparent;
+    padding: 3px;
+    margin:0 2px;
+    color: rgb(63, 52, 52);
+    cursor: pointer;
+   left: 50px;
+
+}
+.input-box button
+{
+    width: 80px;
+    padding: 10px;
+    font-size: 20px;
+    background: rgb(185, 178, 178);
+    color: rgb(63, 52, 52);
+    font-weight: bold;
+    height: 39px;
+
+   
+    border: none;
+    cursor: pointer;
+    
+}
+
+.input-box input
+{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    height: 19px;
+}
+.input-box input:focus
+{
+
+    outline: none;
+}
+.input-box i
+{
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    background:rgb(233, 210, 7);
+    padding: 5px;
+    position:relative;
+    right: 12px;
+}
+header .lan
+{
+    margin: 12px;
+    display: flex;
+    align-items: center;
+}
+header .lan img
+{
+    height: 20px;
+    width: 30px;
+    margin:0 7px;
+}
+header .lan i
+{
+    margin: 3px;
+    margin-top: 8px;
+    color: grey;
+    cursor: pointer;
+}
+header .account i
+{
+    color: grey;
+}
+header .shop
+{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+header .shop  span
+{
+    text-align: center;
+    font-size: 20px;
+   font-weight: bold;
+}
+header .shop i
+{
+  font-size: 40px;
+  color: rgb(238, 76, 18);
+}
+/* end of header desgin */
+
+/* end of list design */
+/* start of chart design */
+.chart
+{
+    width: 100%;
+    height: 40px;
+   background: rgb(0, 0, 17);
+  display: flex;
+  /* display: none; */
+  align-items: center;
+color: white;
+}
+.chart button
+{
+    background: transparent;
+    color: white;
+    width:30px;
+    border: none;
+    font-size: 20px;
+}
+.chart i
+{
+   font-size: 20px;
+   cursor: pointer;
+   width:25px;
+}
+.chart a
+{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 17px;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.allbox
+{
+    /* display: flex; */
+
+
+}
+.allbox .language
+{
+    width:300px;
+    height:480px;
+    background: white;
+    box-shadow: 1px 1px 1px white,1px 2px 1px grey;
+    position: relative;
+    left: 66%;
+   bottom: 40px;
+   display: none;
+   z-index: 1;
+  
+    
+}
+.allbox .language::before
+{
+    content: "";
+    position: absolute;
+    border-width: 17px;
+    border-style: solid;
+    border-color:  transparent transparent  white   transparent ;
+    bottom: 479px;
+    left: 5%;
+}
+.allbox .language .info
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.allbox .language .info a
+{
+    color: darkcyan;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    /* right: 10%; */
+
+}
+.allbox .language  hr
+{
+    margin: 12px;
+}
+.allbox .language a
+{
+    color: darkcyan;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+
+  
+}
+
+.allbox .language span
+{
+ font-size: 20px;
+ font-weight: bold;
+ margin: 10px;  
+
+}
+
+.allbox .language input
+{
+    width:20px;
+    height: 20px;
+   margin: 5px;
+}
+.allbox .acount
+{
+    width:400px;
+    height:320px;
+    background:white;
+    box-shadow: 1px 1px 1px white,1px 1px 1px grey;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 57%;
+    bottom: 30px;
+    z-index: 1;
+}
+.allbox .acount::before
+{
+    content: "";
+    position: absolute;
+    border-width: 17px;
+    border-style: solid;
+    border-color:  transparent transparent  white   transparent ;
+    bottom: 360px;  
+    left: 70%;       
+}
+
+
+.allbox .acount button
+{
+    width: 260px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background: yellow;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.allbox .acount h4
+{
+   text-transform: capitalize;
+   margin: 10px;
+}
+.allbox .acount .twobox
+{
+display: flex;
+color: rgb(46, 41, 41);
+
+}
+
+.allbox .acount .twobox .box1
+{
+    text-align: left;
+    border-right: 1px solid grey;
+   
+}
+.allbox .acount .twobox .box2
+{
+    text-align:left;
+    margin: 10px;
+}
+.allmenu
+{
+    width: 100%;
+    background:rgba(10, 5, 5, 0.685);
+    height: 527px;
+    position: fixed;
+    left: -100%;
+    z-index: 1;
+}
+.allmenu .header
+{
+    background: rgb(3, 3, 44);
+    width: 260px;
+    color: white;
+    font-size: 25px;
+   /* position: relative;
+   bottom: 35px; */
+}
+.allmenu #close
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 20%;
+}
+.allmenu .r
+{
+    /* background: red; */
+    position: relative;
+    bottom: 35px;
+    width: 260px;
+    /* height: 527px; */
+    height: 100%;
+}
+.allmenu .header i
+{
+    margin: 10px;
+}
+.allmenu .twomenu
+{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    background: #000;
+    position: relative;
+    /* bottom: 35px; */
+  
+
+}
+.allmenu .twomenu .menu1 h3
+{
+margin: 10px;
+}
+.allmenu .twomenu .menu1
+{
+    background: white;
+    width: 100%;
+   transition: .5s;
+   position: relative;
+   box-shadow: 1px 1px 1px white,1px 1px 1px grey;
+}
+
+.allmenu .twomenu .menu1 .text
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.allmenu .twomenu .menu1 .text span,i
+{
+   font-size: 17px;
+   cursor: pointer;
+   margin: 7px;
+
+}
+.allmenu .twomenu .menu2
+{
+    position: absolute;
+    background: white;
+    height: 100%;
+   width: 100%;
+   transition: .6s;
+   left: -100%;
+}
+.allmenu .twomenu .menu2 a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.allmenu .twomenu .menu2 .text
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.allmenu .twomenu .menu2 .text span,i
+{
+   font-size: 17px;
+   cursor: pointer;
+   margin: 7px;
+
+}
+.hero
+{
+    width: 100%;
+    height: 580px;
+    position: relative;
+  
+  
+
+}
+.hero img
+{
+  width:100%;
+  height: 100%;
+  object-fit:fill;  
+
+
+}
+.hero .info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    left: 70px;
+    top:190px;
+}
+.hero h1
+{
+    font-size: 55px;
+    font-family: Copperplate Gothic Bold;
+    color: orangered;
+}
+.hero p
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Copperplate Gothic Bold;
+    color: blue;
+}
+.product
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    position: relative;
+    bottom: 90px;
+}
+.product .pbox
+{
+    width:300px;
+    height: 400px;
+    background: white;
+    box-shadow: 1px 1px 2px white,1px 2px 4px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    
+}
+.product .pbox a
+{
+    color: rgb(5, 90, 90);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+.product .pbox h2
+{
+margin: 3px;
+
+}
+.product .pbox .imgbox 
+{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1px;
+   justify-content: space-around;
+  
+}
+.product .pbox .imgbox  .img
+{
+    width: 100px;
+    margin: 3px;
+    height: 100px;
+}
+.product .pbox .imgbox  .img span
+{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.product .pbox .imgbox img
+{
+    width: 110px;
+   /* margin: 3px; */
+    height: 110px;
+}
+.single
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.single .sbox
+{
+    width:300px;
+    height: 360px;
+    background-color: white;
+    box-shadow: 1px 2px 3px white,1px 2px 3px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+
+}
+.single .sbox a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(5, 68, 68);
+}
+.single .sbox h2,a
+{
+    position: relative;
+    left: 26px; 
+}
+.single .sbox img
+{
+    width:250px;
+    height: 260px;
+    position: relative;
+    left: 26px;
+    object-fit: cover;
+   
+}
+.end{
+    width: 1344px;
+    height: 140px;
+    background: white;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+.endbox
+{
+    margin: auto;
+    width: 400px;
+    height: 70%;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.endbox span
+{
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold
+}
+.endbox a
+{
+    color: rgb(6, 65, 65);
+    text-decoration: none;
+    
+}
+.endbox button
+{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background: yellow;
+    border: none;
+    border-radius: 10px;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    background:rgb(2, 2, 43);
+}
+footer .button
+{
+    width: 100%;
+    height: 40px;
+
+    background: rgb(17, 17, 68);
+}
+footer .button button
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+   
+    background: transparent;
+    cursor: pointer;
+
+}
+footer .button button a
+{
+
+    color:white;
+    text-decoration: none;
+    padding: 4px;
+
+
+}
+footer .all
+{
+    width: 100%;
+    height: 460px;
+    background: #05001f; 
+    display: flex;
+    flex-direction: column;
+
+}
+footer .all .fpic
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+footer .all .fpic .fimg img
+{
+     width: 170px;
+     height: 40px;
+     position: relative;
+     top: 10px;
+     left: 80px;
+}
+footer .all .fbutton
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
+
+}
+footer .all .fbutton button
+{
+   padding: 1px;
+   font-size: 17px;
+   color: white;
+   font-weight: bold;
+   background: none;
+   border: 1px solid grey;
+   border-radius: 5px;
+   margin: 10px;
+   height: 40px;
+   width: 200px;
+}
+footer .mainfooter
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background: #05001f; */
+    justify-content: space-between;
+}
+footer .mainfooter h2
+{
+    color: white;
+   
+}
+footer .mainfooter h4
+{
+    color: grey;
+    margin: 2px;
+}
+footer .mainfooter .one
+{
+    margin: 20px;
+}
+footer .endpart
+{
+  width: 100%;
+  display: flex;
+  height: 100%;
+  background: rgb(3, 3, 54);
+  justify-content: space-between;
+}
+footer .endpart .two
+{
+    margin: 10px;
+}
+footer .endpart .two h3
+{
+    color: white;
+    margin: 6px;
+}
+footer .endpart .two h6
+{
+    color:grey;
+    margin: 6px;
+}
+
+
